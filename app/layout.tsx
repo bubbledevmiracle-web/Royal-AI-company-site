@@ -5,13 +5,13 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Royal AI — World-Class Software & Hardware Powered by AI',
+  title: 'AtexSoft LLC — Innovate. Build. Transform.',
   description:
-    'Royal AI is a Singapore-based startup developing world-class products spanning software and hardware, leveraging AI technology across software development, marketing strategy, hardware circuit board design, and firmware development.',
+    'AtexSoft LLC builds world-class technology across AI agent development, blockchain solutions, architecture & design, software development, and consulting & advisory services.',
   openGraph: {
-    title: 'Royal AI — World-Class Software & Hardware Powered by AI',
+    title: 'AtexSoft LLC — Innovate. Build. Transform.',
     description:
-      'Royal AI is a Singapore-based startup developing world-class products spanning software and hardware, leveraging AI technology.',
+      'AtexSoft LLC builds world-class technology across AI agent development, blockchain solutions, architecture & design, software development, and consulting & advisory services.',
     images: [
       {
         url: 'https://bolt.new/static/og_default.png',

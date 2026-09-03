@@ -1,12 +1,14 @@
-import { Code2, Megaphone, CircuitBoard, Cpu, type LucideIcon } from 'lucide-react';
+import Image from 'next/image';
+import { BrainCircuit, Link2, Building2, Code2, Users, type LucideIcon } from 'lucide-react';
 import { Reveal } from '@/components/reveal';
 import { strengths } from '@/lib/content';
 
 const iconMap: Record<string, LucideIcon> = {
+  BrainCircuit,
+  Link2,
+  Building2,
   Code2,
-  Megaphone,
-  CircuitBoard,
-  Cpu,
+  Users,
 };
 
 export function Strengths() {
@@ -22,46 +24,39 @@ export function Strengths() {
               What We Do Best
             </p>
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 mb-6 tracking-tight">
-              Royal AI&apos;s Strengths
+              AtexSoft&apos;s Service Stack
             </h2>
             <div className="mx-auto w-24 h-1.5 bg-gradient-to-r from-blue-600 to-sky-400 rounded-full mb-6" />
             <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-              Four pillars of technical excellence that define our capability to
+              Five pillars of technical excellence that define our capability to
               deliver world-class products across the full technology spectrum.
             </p>
           </div>
         </Reveal>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {strengths.map((strength, idx) => {
             const Icon = iconMap[strength.icon] ?? Code2;
-            const reversed = idx % 2 === 1;
             return (
-              <Reveal key={strength.title} delay={idx * 150} direction={reversed ? 'right' : 'left'}>
-                <div
-                  className={`group flex flex-col ${
-                    reversed ? 'lg:flex-row-reverse' : 'lg:flex-row'
-                  } items-center gap-8 p-6 lg:p-8 rounded-3xl bg-white border border-slate-100 hover:shadow-2xl hover:border-blue-200 transition-all duration-500 h-full`}
-                >
-                  <div className="relative w-full lg:w-1/2 aspect-[4/3] rounded-2xl overflow-hidden shadow-lg">
-                    <img
+              <Reveal key={strength.title} delay={idx * 120} direction="up">
+                <div className="group flex flex-col items-center text-center p-8 rounded-3xl bg-white border border-slate-100 hover:shadow-2xl hover:border-blue-200 hover:-translate-y-1.5 transition-all duration-500 h-full">
+                  <div className="relative h-40 w-40 mb-6 flex items-center justify-center">
+                    <Image
                       src={strength.image}
                       alt={strength.title}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                      fill
+                      className="object-contain group-hover:scale-110 transition-transform duration-500"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-blue-900/40 to-transparent" />
-                    <div className="absolute top-4 left-4 flex h-12 w-12 items-center justify-center rounded-xl bg-white/90 backdrop-blur-md shadow-lg group-hover:scale-110 transition-transform duration-300">
-                      <Icon className="h-6 w-6 text-blue-600" />
+                    <div className="absolute -bottom-2 -right-2 flex h-10 w-10 items-center justify-center rounded-xl bg-blue-600 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                      <Icon className="h-5 w-5 text-white" />
                     </div>
                   </div>
-                  <div className="flex-1 text-center lg:text-left">
-                    <h3 className="text-xl lg:text-2xl font-bold text-slate-900 mb-4">
-                      {strength.title}
-                    </h3>
-                    <p className="text-slate-600 leading-relaxed">
-                      {strength.description}
-                    </p>
-                  </div>
+                  <h3 className="text-xl font-bold text-slate-900 mb-3">
+                    {strength.title}
+                  </h3>
+                  <p className="text-slate-600 leading-relaxed text-sm">
+                    {strength.description}
+                  </p>
                 </div>
               </Reveal>
             );

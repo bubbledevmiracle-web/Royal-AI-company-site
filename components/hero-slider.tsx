@@ -60,7 +60,7 @@ export function HeroSlider() {
         </div>
       ))}
 
-      {/* Floating decorative elements — AI + Singapore symbolism */}
+      {/* Floating decorative elements — AI symbolism */}
       <div className="absolute inset-0 z-15 overflow-hidden pointer-events-none">
         <div className="absolute top-1/4 left-10 h-64 w-64 rounded-full bg-blue-400/20 blur-3xl animate-pulse" style={{ animationDuration: '4s' }} />
         <div className="absolute bottom-1/4 right-10 h-80 w-80 rounded-full bg-sky-400/20 blur-3xl animate-pulse" style={{ animationDuration: '5s' }} />
@@ -81,13 +81,29 @@ export function HeroSlider() {
             </span>
           </div>
 
-          <h1
-            key={`title-${current}`}
-            className="text-5xl sm:text-6xl lg:text-8xl font-black text-white leading-[1.05] mb-8 animate-slide-up tracking-tight"
-            style={{ animationDelay: '0.4s', opacity: 0, animationFillMode: 'forwards' }}
-          >
-            {heroSlides[current].title}
-          </h1>
+          {heroSlides[current].titleImage ? (
+            <div
+              key={`title-${current}`}
+              className="mb-8 flex justify-center animate-slide-up"
+              style={{ animationDelay: '0.4s', opacity: 0, animationFillMode: 'forwards' }}
+            >
+              <div className="inline-block rounded-3xl bg-white/95 shadow-2xl px-8 py-6 sm:px-12 sm:py-8">
+                <img
+                  src={heroSlides[current].titleImage}
+                  alt={heroSlides[current].title}
+                  className="w-full max-w-[280px] sm:max-w-[420px] lg:max-w-[560px] h-auto"
+                />
+              </div>
+            </div>
+          ) : (
+            <h1
+              key={`title-${current}`}
+              className="text-5xl sm:text-6xl lg:text-8xl font-black text-white leading-[1.05] mb-8 animate-slide-up tracking-tight"
+              style={{ animationDelay: '0.4s', opacity: 0, animationFillMode: 'forwards' }}
+            >
+              {heroSlides[current].title}
+            </h1>
+          )}
 
           <p
             key={`desc-${current}`}

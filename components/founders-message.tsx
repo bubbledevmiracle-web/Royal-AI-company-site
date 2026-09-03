@@ -15,7 +15,7 @@ export function FoundersMessage() {
               Our Leadership
             </p>
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 mb-6 tracking-tight">
-              Co-Founders&apos; Message
+              A Message from Our CEO
             </h2>
             <div className="mx-auto w-24 h-1.5 bg-gradient-to-r from-blue-600 to-sky-400 rounded-full" />
           </div>
@@ -29,7 +29,7 @@ export function FoundersMessage() {
           </div>
         </Reveal>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+        <div className="grid grid-cols-1 gap-8 max-w-sm mx-auto">
           {founders.map((founder, idx) => (
             <Reveal key={founder.name} delay={idx * 200} direction={idx === 0 ? 'left' : 'right'}>
               <div className="group flex flex-col items-center text-center p-8 rounded-3xl bg-gradient-to-b from-blue-50/50 to-white border border-slate-100 hover:border-blue-200 hover:shadow-2xl transition-all duration-500">

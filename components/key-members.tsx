@@ -11,7 +11,7 @@ export function KeyMembers() {
         <Reveal>
           <div className="text-center mb-16">
             <p className="text-blue-600 font-semibold tracking-widest uppercase text-sm mb-4">
-              The People Behind Royal AI
+              The People Behind AtexSoft
             </p>
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 mb-6 tracking-tight">
               Key Company Members

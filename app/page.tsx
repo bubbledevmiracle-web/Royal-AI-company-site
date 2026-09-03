@@ -5,7 +5,7 @@ import { Strengths } from '@/components/strengths';
 import { Philosophy } from '@/components/philosophy';
 import { KeyMembers } from '@/components/key-members';
 import { CompanyOverview } from '@/components/company-overview';
-import { SingaporeBanner } from '@/components/singapore-banner';
+import { USBanner } from '@/components/us-banner';
 import { SiteFooter } from '@/components/site-footer';
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
       <HeroSlider />
       <FoundersMessage />
       <Strengths />
-      <SingaporeBanner />
+      <USBanner />
       <Philosophy />
       <KeyMembers />
       <CompanyOverview />

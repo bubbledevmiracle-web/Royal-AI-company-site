@@ -20,8 +20,8 @@ export function SiteFooter() {
         <div className="mx-auto max-w-7xl px-6 pt-20 pb-12">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 mb-16">
             <div className="lg:col-span-2">
-              <Link href="/" aria-label="Royal AI home">
-                <Logo scrolled />
+              <Link href="/" aria-label="AtexSoft LLC home">
+                <Logo onDark />
               </Link>
               <p className="text-slate-400 leading-relaxed mb-6 max-w-md mt-5">
                 {companyInfo.description}

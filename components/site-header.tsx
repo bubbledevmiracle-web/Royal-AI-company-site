@@ -35,8 +35,8 @@ export function SiteHeader() {
       )}
     >
       <div className="mx-auto max-w-7xl px-6 flex items-center justify-between">
-        <Link href="/" aria-label="Royal AI home">
-          <Logo scrolled={scrolled} />
+        <Link href="/" aria-label="AtexSoft LLC home">
+          <Logo onDark={!scrolled} />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-1">

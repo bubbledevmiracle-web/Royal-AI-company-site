@@ -15,7 +15,7 @@ export function ComingSoon({ pageKey }: { pageKey: string }) {
       <SiteHeader />
 
       <section className="relative flex-1 flex items-center justify-center overflow-hidden pt-20">
-        {/* AI + Singapore themed background */}
+        {/* AI themed background */}
         <div className="absolute inset-0 grid-pattern opacity-30" />
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-200/30 rounded-full blur-3xl animate-pulse" style={{ animationDuration: '4s' }} />
         <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-sky-200/30 rounded-full blur-3xl animate-pulse" style={{ animationDuration: '5s' }} />
@@ -24,7 +24,7 @@ export function ComingSoon({ pageKey }: { pageKey: string }) {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-50 border border-blue-100 mb-8">
             <Sparkles className="h-4 w-4 text-blue-600" />
             <span className="text-blue-600 font-semibold tracking-widest uppercase text-xs">
-              Royal AI
+              AtexSoft LLC
             </span>
           </div>
 

@@ -1,5 +1,5 @@
 // ============================================================
-// Royal AI — Central Content Configuration
+// AtexSoft LLC — Central Content Configuration
 // ============================================================
 // Update ALL text, images, and company data here.
 // Components read from this file, so you never need to
@@ -7,18 +7,18 @@
 // ============================================================
 
 export const companyInfo = {
-  name: 'Royal AI',
-  legalName: 'Royal AI Pte. Ltd.',
-  tagline: 'World-Class Software & Hardware Powered by AI',
+  name: 'AtexSoft',
+  legalName: 'AtexSoft LLC',
+  tagline: 'Innovate · Build · Transform',
   description:
-    'A Singapore-based startup developing world-class products that span software and hardware, leveraging AI technology across every discipline we touch.',
+    'AtexSoft LLC builds world-class technology across AI agents, blockchain, architecture & design, software development, and strategic consulting — helping partners innovate, build, and transform.',
   established: 'December 2024',
-  location: 'Central Business District, Singapore',
-  phone: '+65 6123 4567',
-  email: 'contact@royalai.sg',
-  website: 'www.royalai.sg',
-  directors: 'Alexander Chen, Sophia Lim',
-  executives: 'CEO: Alexander Chen | CTO: Sophia Lim',
+  location: 'United States',
+  phone: '+1 (555) 123-4567',
+  email: 'eugene@atexsoft.com',
+  website: 'atexsoft.com',
+  directors: 'Eugene Luzgin',
+  executives: 'CEO: Eugene Luzgin',
   technicalAdvisors:
     'Advisory Board of Industry Experts in AI & Embedded Systems',
 };
@@ -37,84 +37,87 @@ export const navItems = [
 export const heroSlides = [
   {
     image:
+      'https://images.pexels.com/photos/4871017/pexels-photo-4871017.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    eyebrow: 'Welcome to',
+    title: 'AtexSoft LLC',
+    titleImage: '/brand/wordmark-only.png',
+    description: 'Innovate · Build · Transform.',
+  },
+  {
+    image:
       'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1920',
-    eyebrow: 'Royal AI',
-    title: 'Company Information',
+    eyebrow: 'AtexSoft LLC',
+    title: 'Innovate. Build. Transform.',
     description:
-      'A new frontier in intelligent engineering — fusing AI with software and hardware to build the products of tomorrow.',
+      'AtexSoft LLC engineers intelligent AI agents, blockchain systems, and enterprise architecture that turn ambitious ideas into production-grade products.',
   },
   {
     image:
       'https://images.pexels.com/photos/12537427/pexels-photo-12537427.jpeg?auto=compress&cs=tinysrgb&w=1920',
-    eyebrow: 'Royal AI',
+    eyebrow: 'AtexSoft LLC',
     title: 'Company Information',
     description:
-      'From circuit board to cloud — our team of ten pioneers world-class products that span the full technology stack.',
+      'From architecture and design to full-stack software development — we build the systems that power our clients’ next chapter.',
   },
   {
     image:
       'https://images.pexels.com/photos/8640331/pexels-photo-8640331.jpeg?auto=compress&cs=tinysrgb&w=1920',
-    eyebrow: 'Royal AI',
+    eyebrow: 'AtexSoft LLC',
     title: 'Company Information',
     description:
-      'Cutting-edge technical capabilities in software development, marketing strategy, hardware design, and firmware engineering.',
+      'Deep technical capability across AI agent development, blockchain solutions, and strategic consulting & advisory services.',
   },
 ];
 
 // --- Founders ---
 export const founders = [
   {
-    name: 'Alexander Chen',
-    role: 'Co-Founder & CEO',
-    image:
-      'https://images.pexels.com/photos/37148308/pexels-photo-37148308.jpeg?auto=compress&cs=tinysrgb&w=600',
-    bio: 'Visionary leader driving Royal AI\u2019s mission to unify software and hardware through artificial intelligence.',
-  },
-  {
-    name: 'Sophia Lim',
-    role: 'Co-Founder & CTO',
-    image:
-      'https://images.pexels.com/photos/38197025/pexels-photo-38197025.jpeg?auto=compress&cs=tinysrgb&w=600',
-    bio: 'Architect of our full-stack engineering platform, from embedded firmware to cloud-scale AI systems.',
+    name: 'Eugene Luzgin',
+    role: 'Chief Executive Officer',
+    image: '/team/eugene-luzgin.jpg',
+    bio: 'Leads AtexSoft LLC\u2019s mission to innovate, build, and transform through AI agents, blockchain, architecture, software development, and consulting.',
   },
 ];
 
 export const foundersMessage =
-  'We founded Royal AI with a singular conviction: that the next great leap in technology will come not from software alone, nor from hardware alone, but from the intelligent fusion of both. Our team of ten operates as one — engineers, strategists, and creators united by a commitment to build products that are not merely useful, but genuinely world-class. Every circuit we design, every line of code we write, and every strategy we craft is driven by one question: does this advance the frontier of what AI can do for humanity?';
+  'At AtexSoft, we believe technology should do more than function — it should transform. Our team unites deep expertise in AI agent development, blockchain engineering, enterprise architecture, and software craftsmanship to help our partners move from idea to impact. Every engagement is guided by one question: does this genuinely move our clients forward?';
 
 // --- Strengths ---
 export const strengths = [
   {
+    icon: 'BrainCircuit',
+    title: 'AI Agent Development',
+    description:
+      'Intelligent, autonomous AI agents designed to automate workflows and augment decision-making — built on the latest LLM and agentic frameworks.',
+    image: '/brand/services/ai-agent.png',
+  },
+  {
+    icon: 'Link2',
+    title: 'Blockchain Solutions',
+    description:
+      'Secure, scalable blockchain systems — from smart contracts to full decentralized architectures — engineered for real-world reliability.',
+    image: '/brand/services/blockchain.png',
+  },
+  {
+    icon: 'Building2',
+    title: 'Architecture & Design',
+    description:
+      'Enterprise-grade system architecture and design that balances scalability, maintainability, and performance from day one.',
+    image: '/brand/services/architecture.png',
+  },
+  {
     icon: 'Code2',
-    title: 'High-Quality Software Development',
+    title: 'Software Development',
     description:
-      'From embedded systems to cloud platforms, our engineers craft robust, scalable software powered by the latest AI methodologies — delivering products that perform flawlessly under real-world conditions.',
-    image:
-      'https://images.pexels.com/photos/6424583/pexels-photo-6424583.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'End-to-end software engineering across web, cloud, and enterprise platforms — built to perform flawlessly under real-world conditions.',
+    image: '/brand/services/software-development.png',
   },
   {
-    icon: 'Megaphone',
-    title: 'Marketing Strategy Formulation',
+    icon: 'Users',
+    title: 'Consultant & Advisory',
     description:
-      'Data-driven marketing strategies that fuse AI-powered analytics with human creativity. We position products for market success through precise targeting, compelling narratives, and measurable growth.',
-    image:
-      'https://images.pexels.com/photos/7688106/pexels-photo-7688106.jpeg?auto=compress&cs=tinysrgb&w=800',
-  },
-  {
-    icon: 'CircuitBoard',
-    title: 'Hardware Circuit Board Design',
-    description:
-      'Precision-engineered circuit boards designed in-house from schematic to manufacturing. Our hardware team brings deep expertise in PCB layout, signal integrity, and power optimization for AI-edge devices.',
-    image:
-      'https://images.pexels.com/photos/163125/board-printed-circuit-board-computer-electronics-163125.jpeg?auto=compress&cs=tinysrgb&w=800',
-  },
-  {
-    icon: 'Cpu',
-    title: 'Firmware Development',
-    description:
-      'Tight, reliable firmware that bridges hardware and intelligence. We develop low-level code that maximizes performance, minimizes power consumption, and enables seamless over-the-air updates.',
-    image:
-      'https://images.pexels.com/photos/13089944/pexels-photo-13089944.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'Strategic technical consulting and advisory services that help our partners make confident, well-informed technology decisions.',
+    image: '/brand/services/consultant.png',
   },
 ];
 
@@ -155,13 +158,12 @@ export const philosophy = [
 // --- Key Members ---
 export const keyMembers = [
   {
-    name: 'Alexander Chen',
+    name: 'Eugene Luzgin',
     role: 'Chief Executive Officer',
     department: 'Leadership',
-    image:
-      'https://images.pexels.com/photos/37148308/pexels-photo-37148308.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: '/team/eugene-luzgin.jpg',
     description:
-      'Sets the strategic vision and drives the company\u2019s mission to unify software and hardware through AI.',
+      'Sets the strategic vision and drives AtexSoft LLC\u2019s mission to innovate, build, and transform through AI.',
   },
   {
     name: 'Sophia Lim',
@@ -232,15 +234,16 @@ export const keyMembers = [
 export const footerLinks = {
   Company: [
     { label: 'About Us', href: '/' },
-    { label: 'Co-Founders', href: '/' },
+    { label: 'Leadership', href: '/' },
     { label: 'Key Members', href: '/' },
     { label: 'Company Overview', href: '/' },
   ],
   Business: [
+    { label: 'AI Agent Development', href: '/business' },
+    { label: 'Blockchain Solutions', href: '/business' },
+    { label: 'Architecture & Design', href: '/business' },
     { label: 'Software Development', href: '/business' },
-    { label: 'Hardware Design', href: '/business' },
-    { label: 'Firmware Engineering', href: '/business' },
-    { label: 'Marketing Strategy', href: '/business' },
+    { label: 'Consultant & Advisory', href: '/business' },
   ],
   Resources: [
     { label: 'Industries', href: '/industries' },
@@ -254,7 +257,7 @@ export const footerLinks = {
 export const placeholderPages: Record<string, { title: string; subtitle: string }> = {
   business: {
     title: 'Business',
-    subtitle: 'Discover the full scope of Royal AI\u2019s business capabilities.',
+    subtitle: 'Discover the full scope of AtexSoft LLC\u2019s business capabilities.',
   },
   industries: {
     title: 'Industries',
@@ -266,10 +269,10 @@ export const placeholderPages: Record<string, { title: string; subtitle: string 
   },
   news: {
     title: 'News',
-    subtitle: 'Stay up to date with the latest from Royal AI.',
+    subtitle: 'Stay up to date with the latest from AtexSoft LLC.',
   },
   contact: {
     title: 'Contact Us',
-    subtitle: 'Get in touch with the Royal AI team.',
+    subtitle: 'Get in touch with the AtexSoft LLC team.',
   },
 };
