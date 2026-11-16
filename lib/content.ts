@@ -17,8 +17,8 @@ export const companyInfo = {
   phone: '+353 (1) 555 0123',
   email: 'reo@atexsoft.com',
   website: 'atexsoft.com',
-  directors: 'Reo Chalie',
-  executives: 'CEO: Reo Chalie',
+  directors: 'Reo Charlie',
+  executives: 'CEO: Reo Charlie',
   technicalAdvisors:
     'Advisory Board of Industry Experts in AI & Embedded Systems',
 };
@@ -72,9 +72,9 @@ export const heroSlides = [
 // --- Founders ---
 export const founders = [
   {
-    name: 'Reo Chalie',
+    name: 'Reo Charlie',
     role: 'Chief Executive Officer',
-    image: '',
+    image: '/team/reo-charlie.jpg',
     bio: 'Leads AtexSoft LLC\u2019s mission to innovate, build, and transform through AI agents, blockchain, architecture, software development, and consulting.',
   },
 ];
@@ -158,10 +158,10 @@ export const philosophy = [
 // --- Key Members ---
 export const keyMembers = [
   {
-    name: 'Reo Chalie',
+    name: 'Reo Charlie',
     role: 'Chief Executive Officer',
     department: 'Leadership',
-    image: '',
+    image: '/team/reo-charlie.jpg',
     description:
       'Sets the strategic vision and drives AtexSoft LLC\u2019s mission to innovate, build, and transform through AI.',
   },
