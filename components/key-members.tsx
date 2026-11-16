@@ -30,11 +30,17 @@ export function KeyMembers() {
               <div className="group overflow-hidden rounded-2xl bg-white border border-slate-100 hover:shadow-2xl hover:-translate-y-1.5 hover:border-blue-200 transition-all duration-500">
                 {/* Photo occupies ~60% of card area */}
                 <div className="relative aspect-[4/3] overflow-hidden">
-                  <img
-                    src={member.image}
-                    alt={member.name}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                  />
+                  {member.image ? (
+                    <img
+                      src={member.image}
+                      alt={member.name}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    />
+                  ) : (
+                    <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-blue-600 to-sky-400 text-5xl font-black text-white">
+                      {member.name.split(' ').map((n) => n[0]).join('')}
+                    </div>
+                  )}
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-900/70 via-slate-900/10 to-transparent" />
                   <div className="absolute top-3 right-3">
                     <Badge className="bg-white/90 backdrop-blur-md text-blue-700 border-0 shadow-md hover:bg-white">

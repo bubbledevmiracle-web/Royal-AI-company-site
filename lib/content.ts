@@ -13,12 +13,12 @@ export const companyInfo = {
   description:
     'AtexSoft LLC builds world-class technology across AI agents, blockchain, architecture & design, software development, and strategic consulting — helping partners innovate, build, and transform.',
   established: 'December 2024',
-  location: 'United States',
-  phone: '+1 (555) 123-4567',
-  email: 'eugene@atexsoft.com',
+  location: 'Ireland',
+  phone: '+353 (1) 555 0123',
+  email: 'reo@atexsoft.com',
   website: 'atexsoft.com',
-  directors: 'Eugene Luzgin',
-  executives: 'CEO: Eugene Luzgin',
+  directors: 'Reo Chalie',
+  executives: 'CEO: Reo Chalie',
   technicalAdvisors:
     'Advisory Board of Industry Experts in AI & Embedded Systems',
 };
@@ -72,9 +72,9 @@ export const heroSlides = [
 // --- Founders ---
 export const founders = [
   {
-    name: 'Eugene Luzgin',
+    name: 'Reo Chalie',
     role: 'Chief Executive Officer',
-    image: '/team/eugene-luzgin.jpg',
+    image: '',
     bio: 'Leads AtexSoft LLC\u2019s mission to innovate, build, and transform through AI agents, blockchain, architecture, software development, and consulting.',
   },
 ];
@@ -158,10 +158,10 @@ export const philosophy = [
 // --- Key Members ---
 export const keyMembers = [
   {
-    name: 'Eugene Luzgin',
+    name: 'Reo Chalie',
     role: 'Chief Executive Officer',
     department: 'Leadership',
-    image: '/team/eugene-luzgin.jpg',
+    image: '',
     description:
       'Sets the strategic vision and drives AtexSoft LLC\u2019s mission to innovate, build, and transform through AI.',
   },

@@ -1,9 +1,9 @@
 import { Reveal } from '@/components/reveal';
 
-export function USBanner() {
+export function IrelandBanner() {
   return (
     <section className="relative h-[50vh] min-h-[400px] w-full overflow-hidden">
-      {/* US skyline background */}
+      {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
@@ -22,14 +22,14 @@ export function USBanner() {
         <Reveal>
           <div className="text-center max-w-3xl rounded-3xl bg-slate-950/40 backdrop-blur-md border border-white/10 p-8 lg:p-12 shadow-2xl">
             <p className="text-sky-300 font-semibold tracking-widest uppercase text-sm mb-5">
-              Rooted in the U.S. Built for the World.
+              Rooted in Ireland. Built for the World.
             </p>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight mb-6 tracking-tight drop-shadow-2xl">
-              Where American Innovation Meets the Future of AI
+              Where Irish Innovation Meets the Future of AI
             </h2>
             <div className="mx-auto w-24 h-1.5 bg-gradient-to-r from-sky-400 to-blue-500 rounded-full mb-6" />
             <p className="text-lg text-slate-100 leading-relaxed font-light">
-              Headquartered in the United States, AtexSoft LLC draws on the
+              Headquartered in Ireland, AtexSoft LLC draws on the
               country&apos;s world-class tech ecosystem to engineer AI agents,
               blockchain systems, and enterprise software that push the
               boundaries of what&apos;s possible.
